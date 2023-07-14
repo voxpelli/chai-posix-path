@@ -1,6 +1,6 @@
 {
-  "name": "@voxpelli/chai-posix-path",
-  "version": "0.0.0",
+  "name": "chai-posix-path",
+  "version": "1.0.0",
   "description": "Checks whether a string path matches a posix path",
   "homepage": "http://github.com/voxpelli/chai-posix-path",
   "repository": {
