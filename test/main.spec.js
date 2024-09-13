@@ -29,7 +29,6 @@ describe('chaiPosixPath', () => {
         'foo\\bar'.should.be.posixPath('foo');
       },
       AssertionError,
-      // eslint-disable-next-line quotes
       `expected 'foo\\bar' to be 'foo' but got 'foo/bar'`
     );
   });
@@ -40,7 +39,6 @@ describe('chaiPosixPath', () => {
         'foo\\bar'.should.not.be.posixPath('foo/bar');
       },
       AssertionError,
-      // eslint-disable-next-line quotes
       `expected 'foo\\bar' to not be matching 'foo/bar'`
     );
   });
